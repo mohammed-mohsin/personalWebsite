@@ -1,0 +1,301 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-align: left;
+    margin-top: 5px;
+
+
+}
+
+h2 {
+
+
+    font-size: 3.75rem;
+    color: #202428;
+    padding-top: 10%;
+
+}
+
+p {
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 8px;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    line-height: 2rem;
+
+}
+
+section {
+    height: 1000px;
+    padding: 50px;
+}
+
+
+
+#header {
+    background-image: url("../images/header-bg.png");
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+
+}
+
+.halfWidth {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 100px 2%;
+
+
+}
+
+#header h2 {
+    margin-bottom: 0;
+    padding-top: 10%;
+}
+
+.nameColor {
+    color: #ec4c7a;
+    font-weight: 700;
+}
+
+.halfWidth p {
+    color: #707070;
+
+}
+
+.halfWidth img {
+    width: 100%;
+
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    height: 95px;
+    width: 280px;
+    transition: .5s;
+}
+
+.hmBtn {
+    height: 95px;
+    width: 280px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(45deg, #ec4f90, #ec4b75);
+    ;
+    margin-top: 20px;
+
+}
+
+.btn:hover {
+
+    box-shadow: 5px 5px 20px gray;
+    transition: .5s;
+
+
+}
+
+
+
+
+
+#about {
+    background-image: url("../images/biography-bg.png");
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+
+}
+
+
+.cvBtn {
+    height: 95px;
+    width: 345px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(45deg, #ec4f90, #ec4b75);
+    margin-top: 20px;
+}
+
+
+
+.latestWork {
+    background-image: url(../images/latest-work-bg.png);
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+}
+
+.latestWork h2 {
+    text-align: center;
+}
+
+.works {
+    height: 540;
+    margin-left: 5%;
+    padding: 2% 5%;
+
+    /* width: 90%; */
+}
+
+
+
+.work img {
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    transition: .5s;
+}
+
+.work img:hover {
+    box-shadow: 5px 5px 20px gray;
+    transform: scale(1.1);
+
+
+
+}
+
+#client {
+
+    float: left;
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    clear: both;
+    background-color: ;
+    padding-bottom: 10%;
+    height: 900px;
+    background-color: #F8F4FD;
+
+
+
+
+}
+
+.clients {
+
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+#client h2 {
+    text-align: center;
+    padding-top: 0%;
+
+
+}
+
+.quarterWidth {
+
+    float: left;
+    width: 20%;
+    padding: 2%;
+
+
+}
+
+.box {
+
+    border-radius: 5px;
+    height: 60%;
+    background-color: #e0f8f9;
+
+    margin-left: 5%;
+    padding: 5%;
+    transition: .5s;
+
+
+}
+
+.box:hover {
+    box-shadow: 10px 10px 40px gray;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.box h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+.comment {
+    text-align: justify;
+}
+
+.signature {
+    text-align: right;
+
+}
+
+.cName {
+    color: #38a6ef;
+
+}
+
+
+
+
+
+footer {
+    background-image: url("../images/footer-bg.png");
+    clear: both;
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+    height: 500;
+}
+
+.contact {
+    text-align: center;
+}
+
+.message {
+    height: 250px;
+    width: 60%;
+    background-color: ;
+    margin: auto auto;
+    background-image: linear-gradient(45deg, #ec4f90, #ec4b75);
+    border-radius: 25px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.message p {
+    top: 100px;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 0;
+    color: white;
+
+}
+
+.message h3 {
+    text-align: center;
+    color: white;
+}
+
+.message a {
+    text-decoration: none;
+}
+
+.bFooter {
+
+    text-align: center;
+}
